@@ -1,0 +1,24 @@
+.search-result{
+    width: 100%;
+    padding: 60px 0;
+    background-image: linear-gradient(90deg,#BDC3c7, #445463);
+}
+
+.heading{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding: 0 10vw;
+    background-image: linear-gradient(90deg,#BDC3c7, #445463);
+}
+.heading span{
+    font-weight: 700;
+}
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: auto;
+    grid-row-gap: 40px;
+    background-image: linear-gradient(90deg,#BDC3c7, #445463);
+    padding-top: 10px;
+}
